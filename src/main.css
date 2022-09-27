@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;800&family=Rubik:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container-count {
+   @apply max-w-[1320px] mx-auto px-5;
+}
+
+.main-body-bg-color {
+   @apply bg-[#fafafa] dark:bg-[#202c36];
+}
+
+.main-header-bg-color {
+   @apply bg-white dark:bg-[#2b3844];
+}
+
+.card-theme-mode {
+   @apply text-[#111517] dark:text-[#ffffff] bg-white dark:bg-[#2B3844]
+}
+
+.theme-mode-color {
+   @apply text-[#111517] dark:text-[#ffffff]
+}
