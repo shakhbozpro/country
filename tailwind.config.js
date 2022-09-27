@@ -20,6 +20,9 @@ module.exports = {
         "lightsearch": 'url("../images/light-search-icon.svg")',
         "darksearch": 'url("../images/dark-search-icon.svg")'
       },
+      backgroundPosition: {
+        "input-search": "32px center"
+      }
     },
   },
   plugins: [],

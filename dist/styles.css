@@ -42,7 +42,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-  tab-size: 4;
+     tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -81,7 +81,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
+          text-decoration: underline dotted;
 }
 
 /*
@@ -385,7 +385,7 @@ Make sure disabled buttons don't get the pointer cursor.
 /*
 1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
 2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-This can trigger a poorly considered lint error in some tools but is included by design.
+   This can trigger a poorly considered lint error in some tools but is included by design.
 */
 
 img,
@@ -595,8 +595,8 @@ video {
 
 .appearance-none{
   -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .flex-col{
@@ -638,6 +638,10 @@ video {
 
 .bg-lightsearch{
   background-image: url("../images/light-search-icon.svg");
+}
+
+.bg-input-search{
+  background-position: 32px center;
 }
 
 .bg-no-repeat{
@@ -908,71 +912,71 @@ video {
   .md\:mb-12{
     margin-bottom: 3rem;
   }
-  
+
   .md\:mt-0{
     margin-top: 0px;
   }
-  
+
   .md\:h-\[19px\]{
     height: 19px;
   }
-  
+
   .md\:w-\[233px\]{
     width: 233px;
   }
-  
+
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
-  
+
   .md\:flex-row{
     flex-direction: row;
   }
-  
+
   .md\:items-center{
     align-items: center;
   }
-  
+
   .md\:justify-between{
     justify-content: space-between;
   }
-  
+
   .md\:gap-\[75px\]{
     gap: 75px;
   }
-  
+
   .md\:py-6{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
   }
-  
+
   .md\:py-\[18px\]{
     padding-top: 18px;
     padding-bottom: 18px;
   }
-  
+
   .md\:pt-10{
     padding-top: 2.5rem;
   }
-  
+
   .md\:pb-\[45px\]{
     padding-bottom: 45px;
   }
-  
+
   .md\:text-base{
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
+
   .md\:text-sm{
     font-size: 0.875rem;
     line-height: 1.25rem;
   }
-  
+
   .md\:font-semibold{
     font-weight: 600;
   }
-  
+
   .md\:leading-\[22px\]{
     line-height: 22px;
   }
@@ -982,7 +986,7 @@ video {
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
-  
+
   .lg\:pt-12{
     padding-top: 3rem;
   }
